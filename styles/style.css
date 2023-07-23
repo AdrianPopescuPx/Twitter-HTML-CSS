@@ -3,3 +3,45 @@ body {
     background-color: black;
     font-family: "Archivo", Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
+
+.image-container {
+    flex: 55%;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.content-container {
+    flex: 45%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding-top: 50px;
+    padding-left: 36px;
+    color: white;
+}
+
+.logo {
+    fill: white;
+    position: absolute;
+    right: 63%;
+    top: 25%;
+    height: 430px;
+}
+
+.horizontal-line {
+    width: 165px;
+    height: 1px;
+    background-color: rgb(57, 56, 56);
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.break-line {
+    display: flex;
+    align-items: center;
+}
