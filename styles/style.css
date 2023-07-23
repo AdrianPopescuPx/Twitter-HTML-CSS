@@ -45,3 +45,49 @@ body {
     display: flex;
     align-items: center;
 }
+
+.buttons {
+    width: 380px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    border-width: 0;
+}
+
+.sign-up-text {
+    max-width: 380px;
+    margin-bottom: 20px;
+    padding-top: 8px;
+    font-size: 15px;
+    color: rgb(113, 118, 123);
+}
+
+.blueText {
+    color: rgb(29, 155, 240);
+}
+
+.custom-button {
+    width: 380px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    padding: 10px 50px;
+    margin-top: 20px;
+    border: 1px solid rgb(83, 100, 113);
+    color: rgb(29, 155, 240);
+    background-color: transparent;
+}
+
+.navbarLinks {
+    color: #71767B;
+    font-size: 16px;
+    padding-right: 20px;
+}
